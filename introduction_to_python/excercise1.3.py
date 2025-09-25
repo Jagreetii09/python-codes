@@ -1,4 +1,5 @@
 print("%15s %10s %10s" % ("Amino acid", "1-letter", "codon"))
+print("%15s %10s %10s" % ("---------------", "----------", "----------"))
 print("%15s %10s %10s" % ("Serine", "S", "AGT"))
 print("%15s %10s %10s" % ("", "", "AGC"))
 print("%15s %10s %10s" % ("Cysteine", "C", "TGT"))
