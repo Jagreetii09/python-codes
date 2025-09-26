@@ -13,3 +13,10 @@ print("Rounded y:", y)
 
 print(x - y)     
 
+x = 0.1 * 10.0
+print(x)
+y = 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 
+print(y)
+
+print(x-y)
+
