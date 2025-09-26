@@ -48,7 +48,7 @@ codon_table = {
     'UAA': 'STOP', 'UAG': 'STOP', 'UGA': 'STOP'
 }
 
-codon_table_sorted = sorted(codon_table.items(), key=operator.itemgetter(1))
+codon_table_sorted = sorted(codon_table.items)
 
 for codon, amino_acid in codon_table_sorted:
     print(codon, "-", amino_acid)
