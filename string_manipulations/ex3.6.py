@@ -31,3 +31,8 @@ print('Percentage of A:', percent_A)
 print('Percentage of C:', percent_C)
 print('Percentage of G:', percent_G)
 print('Percentage of T:', percent_T)
+
+# print(f'Percentage of A: {percent_A:.2f}%')
+# print(f'Percentage of C: {percent_C:.2f}%')
+# print(f'Percentage of G: {percent_G:.2f}%')
+# print(f'Percentage of T: {percent_T:.2f}%')
