@@ -7,3 +7,21 @@
 # enclosed in triple quotes ''' ... '''; this string literal is the 
 # function’s documentation string, or docstring. 
 
+def DNAtoRNA(dna):
+    '''
+Converts DNA string to RNA string
+
+Parameters: DNA sequence as a string
+Return: RNA sequence as a string
+    '''
+
+    transliterate = dna.maketrans('tT','uU')
+    rna = dna.translate(transliterate)
+    return rna
+
+
+zika_DNA = 'AGTTGTTGATCTGTGTGAGTCAGACTGCG'
+print('Zika DNA segment is', zika_DNA)
+
+zika_RNA = DNAtoRNA(zika_DNA);
+print('Zika RNA segment is', zika_RNA)
